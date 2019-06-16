@@ -16,7 +16,4 @@ gradlew
 app/src/androidTest/
 app/src/main/java/by/itacademy/pvtjune/cw/
 app/src/main/java/by/itacademy/pvtjune/MainScreen.kt
-app/src/main/java/by/itacademy/pvtjune/dz/dz0/Dz0.kt
-app/src/main/res/layout/activity_main_screen.xml
-app/src/main/res/layout/activity_dz0.xml
-app/src/main/res/layout/activity_cw1.xml
+
