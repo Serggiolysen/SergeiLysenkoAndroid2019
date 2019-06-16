@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SergeiLysenkoApp</string>
+    <string name="hello">hello</string>
+    <string name="text0">text0</string>
+    <string name="text1">text1</string>
+    <string name="button">Button</string>
+    <string name="dz0">dz0</string>
+    <string name="dz1">dz1</string>
+    <string name="dz2">dz2</string>
+</resources>
