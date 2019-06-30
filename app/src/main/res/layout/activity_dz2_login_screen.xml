@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+    <ImageView
+            android:id="@+id/imageViewBg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/login_bg"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:tint="@color/white"
+                android:src="@drawable/login_logo"
+                android:contentDescription="@string/logo_name"/>
+
+        <EditText
+                style="@style/LoginEditText"
+                android:id="@+id/editTextUsername"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_login_name"
+                android:inputType="text"/>
+
+        <EditText
+                style="@style/LoginEditText"
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:drawableStart="@drawable/ic_login_password"
+                android:inputType="textPassword"/>
+
+        <Button
+                android:id="@+id/loginButton"
+                style="@style/buttonStileInLoginScreen"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:text="@string/log_in"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/forgot_your_pass"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:fontFamily="@font/monda_regular"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+        <Button
+                android:id="@+id/accountButton"
+                style="@style/buttonStileInLoginScreen"
+                android:background="@color/createAccountcolor"
+                android:textColor="@color/white"
+                android:text="@string/create_account"/>
+
+    </LinearLayout>
+</FrameLayout>
