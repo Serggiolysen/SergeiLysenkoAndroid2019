@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android = "http://schemas.android.com/apk/res/android"
+        xmlns:tools = "http://schemas.android.com/tools"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:background = "@color/black"
+        android:orientation = "vertical"
+        android:padding = "20dp">
+
+  <ImageView
+          android:id = "@+id/dz3BellImage"
+          android:layout_width = "30dp"
+          android:layout_height = "30dp"
+          android:layout_marginTop = "10dp"
+          android:src = "@drawable/ic_notifications_none_black_24dp"
+          tools:ignore = "ContentDescription"/>
+
+  <ImageView
+          android:id = "@+id/dz3AvatarBack"
+          android:layout_width = "wrap_content"
+          android:layout_height = "wrap_content"
+          android:layout_below = "@+id/dz3BellImage"
+          android:layout_marginTop = "20dp"
+          android:background = "@drawable/dz3avatar_shape"
+          tools:ignore = "ContentDescription"/>
+
+  <ImageView
+          android:id = "@+id/dz3AvatarImage"
+          android:layout_width = "130dp"
+          android:layout_height = "130dp"
+          android:layout_alignBottom = "@+id/dz3AvatarBack"
+          android:layout_marginBottom = "3dp"
+          android:layout_alignStart="@id/dz3AvatarBack"
+          android:layout_marginStart="3dp"
+          tools:ignore = "ContentDescription"/>
+
+  <TextView
+          android:layout_width = "210dp"
+          android:layout_height = "35dp"
+          android:layout_alignTop = "@+id/dz3AvatarImage"
+          android:layout_marginStart = "25dp"
+          android:layout_marginTop = "40dp"
+          android:layout_toEndOf = "@id/dz3AvatarImage"
+          android:autoSizeTextType = "uniform"
+          android:text = "@string/dilan_conner"
+          android:textColor = "@color/white"/>
+
+  <LinearLayout
+          android:id = "@+id/ds3linearLayoutSocialRatesNames"
+          android:layout_width = "match_parent"
+          android:layout_height = "wrap_content"
+          android:layout_alignTop = "@+id/dz3AvatarImage"
+          android:layout_marginTop = "180dp"
+          android:orientation = "horizontal">
+
+    <TextView
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:autoSizeTextType = "uniform"
+            android:gravity = "center"
+            android:text = "@string/tropies"
+            android:textColor = "@color/dz3colorSocialRatesNames"
+            android:textStyle = "bold"/>
+
+    <TextView
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:autoSizeTextType = "uniform"
+            android:gravity = "center"
+            android:text = "@string/following"
+            android:textColor = "@color/dz3colorSocialRatesNames"
+            android:textStyle = "bold"/>
+
+    <TextView
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:autoSizeTextType = "uniform"
+            android:gravity = "center"
+            android:text = "@string/followers"
+            android:textColor = "@color/dz3colorSocialRatesNames"
+            android:textStyle = "bold"/>
+  </LinearLayout>
+
+  <LinearLayout
+          android:id = "@+id/ds3linearLayoutSocialRates"
+          android:layout_width = "match_parent"
+          android:layout_height = "wrap_content"
+          android:layout_alignTop = "@id/ds3linearLayoutSocialRatesNames"
+          android:layout_marginTop = "25dp"
+          android:orientation = "horizontal">
+
+    <TextView
+            android:layout_width = "0dp"
+            android:layout_height = "30dp"
+            android:layout_weight = "1"
+            android:autoSizeTextType = "uniform"
+            android:gravity = "center"
+            android:text = "@string/four"
+            android:textColor = "@color/dz3colorSocialRates"
+            android:textStyle = "bold"/>
+
+    <TextView
+            android:layout_width = "0dp"
+            android:layout_height = "30dp"
+            android:layout_weight = "1"
+            android:autoSizeTextType = "uniform"
+            android:gravity = "center"
+            android:text = "@string/fiftyfour"
+            android:textColor = "@color/dz3colorSocialRates"
+            android:textStyle = "bold"/>
+
+    <TextView
+            android:layout_width = "0dp"
+            android:layout_height = "30dp"
+            android:layout_weight = "1"
+            android:autoSizeTextType = "uniform"
+            android:gravity = "center"
+            android:text = "@string/twelve"
+            android:textColor = "@color/dz3colorSocialRates"
+            android:textStyle = "bold"/>
+  </LinearLayout>
+
+  <View
+          android:layout_width = "match_parent"
+          android:layout_height = "1dp"
+          android:layout_alignTop = "@+id/ds3linearLayoutSocialRates"
+          android:layout_marginTop = "40dp"
+          android:background = "@color/dz3colorSocialRatesNames"/>
+
+  <TableLayout
+          android:layout_width = "match_parent"
+          android:layout_height = "match_parent"
+          android:layout_alignTop = "@+id/ds3linearLayoutSocialRates"
+          android:layout_marginTop = "50dp"
+          android:layout_marginBottom = "15dp"
+          android:stretchColumns = "*">
+
+    <TableRow android:layout_weight = "1">
+
+      <TextView
+              style = "@style/dz3userDataLeftColumn"
+              android:text = "@string/dz3name"/>
+
+      <TextView
+              style = "@style/dz3userDataRightColumn"
+              android:text = "@string/sz3NailBrockman"/>
+    </TableRow>
+
+    <TableRow android:layout_weight = "1">
+
+      <TextView
+              style = "@style/dz3userDataLeftColumn"
+              android:text = "@string/dz3country"/>
+
+      <TextView
+              style = "@style/dz3userDataRightColumn"
+              android:text = "@string/dz3usa"/>
+    </TableRow>
+
+    <TableRow android:layout_weight = "1">
+
+      <TextView
+              style = "@style/dz3userDataLeftColumn"
+              android:text = "@string/dz3postalCode"/>
+
+      <TextView
+              style = "@style/dz3userDataRightColumn"
+              android:text = "@string/dz3Sixty"/>
+    </TableRow>
+
+    <TableRow android:layout_weight = "1">
+
+      <TextView
+              style = "@style/dz3userDataLeftColumn"
+              android:text = "@string/dz3DateOfBirth"/>
+
+      <TextView
+              style = "@style/dz3userDataRightColumn"
+              android:text = "@string/dz3Feb21"/>
+    </TableRow>
+
+    <TableRow android:layout_weight = "1">
+
+      <TextView
+              style = "@style/dz3userDataLeftColumn"
+              android:text = "@string/dz3Gender"/>
+
+      <TextView
+              style = "@style/dz3userDataRightColumn"
+              android:text = "@string/dz3MaleGender"/>
+    </TableRow>
+
+    <TableRow android:layout_weight = "1">
+
+      <TextView
+              style = "@style/dz3userDataLeftColumn"
+              android:text = "@string/dz3Height"/>
+
+      <TextView
+              style = "@style/dz3userDataRightColumn"
+              android:text = "@string/dz3HeightNumber"/>
+    </TableRow>
+
+    <TableRow android:layout_weight = "1">
+
+      <TextView
+              style = "@style/dz3userDataLeftColumn"
+              android:text = "@string/dz3Phone"/>
+
+      <TextView
+              style = "@style/dz3userDataRightColumn"
+              android:text = "@string/dz3PhoneNuber"/>
+    </TableRow>
+
+  </TableLayout>
+
+
+</RelativeLayout>
