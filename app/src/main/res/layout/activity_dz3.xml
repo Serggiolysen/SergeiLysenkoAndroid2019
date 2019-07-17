@@ -61,7 +61,7 @@
             android:autoSizeTextType = "uniform"
             android:gravity = "center"
             android:text = "@string/tropies"
-            android:textColor = "@color/dz3colorSocialRatesNames"
+            android:textColor = "@color/white"
             android:textStyle = "bold"/>
 
     <TextView
@@ -71,7 +71,7 @@
             android:autoSizeTextType = "uniform"
             android:gravity = "center"
             android:text = "@string/following"
-            android:textColor = "@color/dz3colorSocialRatesNames"
+            android:textColor = "@color/white"
             android:textStyle = "bold"/>
 
     <TextView
@@ -81,7 +81,7 @@
             android:autoSizeTextType = "uniform"
             android:gravity = "center"
             android:text = "@string/followers"
-            android:textColor = "@color/dz3colorSocialRatesNames"
+            android:textColor = "@color/white"
             android:textStyle = "bold"/>
   </LinearLayout>
 
@@ -100,7 +100,7 @@
             android:autoSizeTextType = "uniform"
             android:gravity = "center"
             android:text = "@string/four"
-            android:textColor = "@color/dz3colorSocialRates"
+            android:textColor = "@color/white"
             android:textStyle = "bold"/>
 
     <TextView
@@ -110,7 +110,7 @@
             android:autoSizeTextType = "uniform"
             android:gravity = "center"
             android:text = "@string/fiftyfour"
-            android:textColor = "@color/dz3colorSocialRates"
+            android:textColor = "@color/white"
             android:textStyle = "bold"/>
 
     <TextView
@@ -120,7 +120,7 @@
             android:autoSizeTextType = "uniform"
             android:gravity = "center"
             android:text = "@string/twelve"
-            android:textColor = "@color/dz3colorSocialRates"
+            android:textColor = "@color/white"
             android:textStyle = "bold"/>
   </LinearLayout>
 
@@ -129,7 +129,7 @@
           android:layout_height = "1dp"
           android:layout_alignTop = "@+id/ds3linearLayoutSocialRates"
           android:layout_marginTop = "40dp"
-          android:background = "@color/dz3colorSocialRatesNames"/>
+          android:background = "@color/black"/>
 
   <TableLayout
           android:layout_width = "match_parent"
@@ -142,77 +142,63 @@
     <TableRow android:layout_weight = "1">
 
       <TextView
-              style = "@style/dz3userDataLeftColumn"
               android:text = "@string/dz3name"/>
 
       <TextView
-              style = "@style/dz3userDataRightColumn"
               android:text = "@string/sz3NailBrockman"/>
     </TableRow>
 
     <TableRow android:layout_weight = "1">
 
       <TextView
-              style = "@style/dz3userDataLeftColumn"
               android:text = "@string/dz3country"/>
 
       <TextView
-              style = "@style/dz3userDataRightColumn"
               android:text = "@string/dz3usa"/>
     </TableRow>
 
     <TableRow android:layout_weight = "1">
 
       <TextView
-              style = "@style/dz3userDataLeftColumn"
               android:text = "@string/dz3postalCode"/>
 
       <TextView
-              style = "@style/dz3userDataRightColumn"
               android:text = "@string/dz3Sixty"/>
     </TableRow>
 
     <TableRow android:layout_weight = "1">
 
       <TextView
-              style = "@style/dz3userDataLeftColumn"
               android:text = "@string/dz3DateOfBirth"/>
 
       <TextView
-              style = "@style/dz3userDataRightColumn"
               android:text = "@string/dz3Feb21"/>
     </TableRow>
 
     <TableRow android:layout_weight = "1">
 
       <TextView
-              style = "@style/dz3userDataLeftColumn"
               android:text = "@string/dz3Gender"/>
 
       <TextView
-              style = "@style/dz3userDataRightColumn"
               android:text = "@string/dz3MaleGender"/>
     </TableRow>
 
     <TableRow android:layout_weight = "1">
 
       <TextView
-              style = "@style/dz3userDataLeftColumn"
               android:text = "@string/dz3Height"/>
 
       <TextView
-              style = "@style/dz3userDataRightColumn"
               android:text = "@string/dz3HeightNumber"/>
     </TableRow>
 
     <TableRow android:layout_weight = "1">
 
       <TextView
-              style = "@style/dz3userDataLeftColumn"
               android:text = "@string/dz3Phone"/>
 
       <TextView
-              style = "@style/dz3userDataRightColumn"
               android:text = "@string/dz3PhoneNuber"/>
     </TableRow>
 
