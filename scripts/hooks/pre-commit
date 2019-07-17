@@ -1,0 +1,25 @@
+#!/bin/bash
+
+KOTLIN_LINTER_URL=https://kiparo.by/ktlint
+KOTLIN_LINTER_FILE=ktlint
+TEMP_DIRECTORY=.temp
+
+mkdir -p ${TEMP_DIRECTORY}
+
+pushd ${TEMP_DIRECTORY}  > /dev/null
+if [ ! -f ${KOTLIN_LINTER_FILE} ]; then
+  echo "Downloading kotlin linter.."
+  curl -sSLO ${KOTLIN_LINTER_URL}
+  chmod a+x ${KOTLIN_LINTER_FILE}
+fi
+popd  > /dev/null
+
+changedFiles=$(git diff --cached --name-only --diff-filter=ACMR | grep ".*kt$" )
+
+java -jar "${TEMP_DIRECTORY}/${KOTLIN_LINTER_FILE}" --color $changedFiles
+
+if [ $? -gt 0 ]; then
+  echo -e "\033[0;31mKotlin Code style violation. Please check errors above!\033[0m\n"
+  echo -e "Hint: use \"./${TEMP_DIRECTORY}/${KOTLIN_LINTER_FILE} -F <file pattern>\" for autocorrection.\n"
+  exit 1
+fi
