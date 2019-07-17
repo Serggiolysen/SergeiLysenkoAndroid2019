@@ -1,38 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="200dp">
 
-    <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+    <Button
+        android:id="@+id/mainScreenButtonDz0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="@string/dz0"
+        android:textSize="30sp" />
 
-        <Button
-                android:id="@+id/mainScreenButtonDz0"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top|center"
-                android:layout_marginTop="160dp"
-                android:text="@string/dz0"
-                android:textSize="30sp"/>
-        <Button
-                android:id="@+id/mainScreenButtonDz1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top|center"
-                android:layout_marginTop="260dp"
-                android:text="@string/dz1"
-                android:textSize="30sp"/>
-        <Button
-                android:id="@+id/mainScreenButtonDz2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top|center"
-                android:layout_marginTop="360dp"
-                android:text="@string/dz2"
-                android:textSize="30sp"/>
+    <Button
+        android:id="@+id/mainScreenButtonDz1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="@string/dz1"
+        android:textSize="30sp" />
 
-    </FrameLayout>
+    <Button
+        android:id="@+id/mainScreenButtonDz2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="@string/dz2"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/mainScreenButtonDz2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="@string/dz2_1"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/mainScreenButtonDz3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="@string/dz3"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/mainScreenButtonDz4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="@string/dz4"
+        android:textSize="30sp" />
+
 </LinearLayout>

@@ -1,20 +1,16 @@
 package by.itacademy.pvtjune.dz.dz2
 
 import android.app.Activity
-import android.content.res.Resources
 import android.os.Bundle
-import android.widget.Toast
 import by.itacademy.myapplication.R
-import by.itacademy.pvtjune.loadImageCircle
 import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.RequestOptions
 import kotlinx.android.synthetic.main.activity_dz2_image_donloading.*
 
 class Dz2ImageDownloading : Activity() {
 
-    private val url = "https://www.plywerk.com/wp/wp-content/uploads/2018/09/" +
-            "taking-better-pictures-with-your-phone-ck21.jpg"
+    private val url = "https://upload.wikimedia.org/wikipedia/commons/b/b4/The_Sun_by_the_" +
+            "Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg"
 
 //    private val toast = Toast.makeText(this, "loading error", Toast.LENGTH_SHORT)
 
