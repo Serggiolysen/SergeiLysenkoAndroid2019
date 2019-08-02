@@ -1,16 +1,16 @@
-//package by.itacademy.pvtjune.dz.dz5
+// package by.itacademy.pvtjune.dz.dz5
 //
-//import android.content.Context
-//import android.graphics.Canvas
-//import android.graphics.Paint
-//import android.graphics.RectF
-//import android.util.AttributeSet
-//import android.util.Log
-//import android.view.View
-//import androidx.core.content.ContextCompat
-//import by.itacademy.myapplication.R
+// import android.content.Context
+// import android.graphics.Canvas
+// import android.graphics.Paint
+// import android.graphics.RectF
+// import android.util.AttributeSet
+// import android.util.Log
+// import android.view.View
+// import androidx.core.content.ContextCompat
+// import by.itacademy.myapplication.R
 //
-//class Dz5DiagramView : View {
+// class Dz5DiagramView : View {
 //
 //    private val arcPaint = Paint(Paint.ANTI_ALIAS_FLAG)
 //    private val arcPaint2 = Paint(Paint.ANTI_ALIAS_FLAG)
@@ -92,4 +92,4 @@
 //        canvas.rotate(listOfAngles.get(1), cx, cy)
 //        canvas.drawArc(rectF, 270F, listOfAngles.get(2), true, arcPaint3)
 //    }
-//}
+// }

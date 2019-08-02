@@ -1,11 +1,11 @@
-//package by.itacademy.pvtjune.dz.dz5
+// package by.itacademy.pvtjune.dz.dz5
 //
-//import android.app.Activity
-//import android.os.Bundle
-//import android.util.Log
-//import by.itacademy.myapplication.R
+// import android.app.Activity
+// import android.os.Bundle
+// import android.util.Log
+// import by.itacademy.myapplication.R
 //
-//class Dz5Diagram : Activity() {
+// class Dz5Diagram : Activity() {
 //
 //    override fun onCreate(savedInstanceState: Bundle?) {
 //        super.onCreate(savedInstanceState)
@@ -13,4 +13,4 @@
 //
 //        Log.d("TAGGG", "onCreate")
 //    }
-//}
+// }
