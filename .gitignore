@@ -27,7 +27,6 @@ app/debug/app-debug.apk
 app/src/main/res/color/login_button_text_selector.xml
 app/src/main/res/drawable/login_button_selector.xml
 app/src/main/res/drawable/login_button_shape.xml
-app/src/main/res/
 app/src/test/java/by/itacademy/myapplication/MockApi.kt
 app/src/test/java/by/itacademy/myapplication/MockCall.kt
 app/src/test/java/by/itacademy/myapplication/CarRepositoryRemoteTest.kt
