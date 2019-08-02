@@ -38,4 +38,7 @@
     <string name="some">some</string>
     <string name="hi">Hi</string>
     <string name="bye">bye</string>
+    <string name="dz5">dz5</string>
+    <string name="dz5_1">dz5_1</string>
+    <string name="enter3nums">enter 3 nums</string>
 </resources>

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingTop="200dp">
+    android:paddingTop="50dp">
 
     <Button
         android:id="@+id/mainScreenButtonDz0"
@@ -52,5 +52,24 @@
         android:layout_gravity="top|center"
         android:text="@string/dz4"
         android:textSize="30sp" />
+
+    <Button
+            android:id="@+id/mainScreenButtonDz5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:text="@string/dz5"
+            android:textSize="30sp" />
+
+    <Button
+            android:id="@+id/mainScreenButtonDz5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:text="@string/dz5_1"
+            android:textSize="30sp" />
+
+
+
 
 </LinearLayout>
