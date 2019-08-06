@@ -17,3 +17,20 @@ app/src/androidTest/
 app/src/main/java/by/itacademy/pvtjune/cw/
 app/src/main/java/by/itacademy/pvtjune/MainScreen.kt
 
+app/src/main/java/by/itacademy/pvtjune/app/App.kt
+app/src/main/java/by/itacademy/pvtjune/ImageLoader.kt
+app/sign/dev_keystore.jks
+app/debug/output.json
+app/debug/app-debug.apk
+.temp/ktlint
+.idea/encodings.xml
+app/src/main/res/color/login_button_text_selector.xml
+app/src/main/res/drawable/login_button_selector.xml
+app/src/main/res/drawable/login_button_shape.xml
+app/src/test/java/by/itacademy/myapplication/MockApi.kt
+app/src/test/java/by/itacademy/myapplication/MockCall.kt
+app/src/test/java/by/itacademy/myapplication/CarRepositoryRemoteTest.kt
+app/src/test/java/by/itacademy/myapplication/StudentRepoitoruRemoteTest2.kt
+projectFilesBackup/.idea/workspace.xml
+scripts/hooks/pre-commit
+app/src/main/java/by/itacademy/pvtjune/cw

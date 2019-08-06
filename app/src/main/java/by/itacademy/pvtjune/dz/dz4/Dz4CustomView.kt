@@ -10,7 +10,8 @@ import android.view.View
 import androidx.core.content.ContextCompat
 import by.itacademy.myapplication.R
 import java.text.SimpleDateFormat
-import java.util.*
+import java.util.Locale
+import java.util.Date
 
 class Dz4CustomView : View {
 
@@ -93,7 +94,6 @@ class Dz4CustomView : View {
         rectF.top = cy - radius
         rectF.right = radius * 2
         rectF.bottom = cy + radius
-
     }
 
     override fun onDraw(canvas: Canvas?) {
@@ -169,6 +169,5 @@ class Dz4CustomView : View {
         canvas.drawText(currientDate, cx / 4 - cx / 8, cy / 4 + cy / 7, rectPaint)
 
         canvas.restore()
-             //zkjdkjfskdfkjhslkjdfgksdlfkjg
     }
 }

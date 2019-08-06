@@ -1,43 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-        xmlns:android = "http://schemas.android.com/apk/res/android"
-        android:id = "@+id/relativeLayoutDz2"
-        android:layout_width = "match_parent"
-        android:layout_height = "match_parent"
-        android:layout_weight = "3"
-        android:background = "@color/black"
-        android:padding = "30dp">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutDz2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3"
+    android:background="@color/black"
+    android:padding="30dp">
 
-  <ImageView
-          android:id = "@+id/imageViewDz2"
-          android:layout_width = "match_parent"
-          android:layout_height = "240dp"/>
+    <ImageView
+        android:id="@+id/imageViewDz2"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:contentDescription="@string/imageview" />
 
-  <FrameLayout
-          android:layout_width = "match_parent"
-          android:layout_height = "match_parent"
-          android:layout_below = "@+id/imageViewDz2"
-          android:layout_marginTop = "90dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewDz2"
+        android:layout_marginTop="90dp">
 
-    <EditText
-            android:id = "@+id/textViewDz2"
-            style = "@style/styleTextViewDz2"
-            android:layout_width = "match_parent"
-            android:layout_height = "wrap_content"
-            android:layout_gravity = "center_horizontal"
-            android:inputType = "text"
-            android:labelFor = "@id/textViewDz2"
-            android:maxLines = "3"/>
+        <EditText
+            android:id="@+id/textViewDz2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:autofillHints="EditText"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:labelFor="@id/textViewDz2"
+            android:maxLines="3" />
 
-    <Button
-            android:id = "@+id/buttonDz2"
-            android:layout_width = "wrap_content"
-            android:layout_height = "wrap_content"
-            android:layout_gravity = "center_horizontal"
-            android:layout_marginTop = "90dp"
-            android:clickable = "true"
-            android:text = "@string/imageDownload"
-            android:textColor = "@color/black"/>
-  </FrameLayout>
+        <Button
+            android:id="@+id/buttonDz2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="90dp"
+            android:clickable="true"
+            android:text="@string/download"
+            android:textColor="@color/black" />
+    </FrameLayout>
 
 </RelativeLayout>

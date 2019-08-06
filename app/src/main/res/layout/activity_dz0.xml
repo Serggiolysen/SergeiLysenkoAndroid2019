@@ -19,7 +19,6 @@
                 android:layout_gravity="top|center"
                 android:layout_marginTop="160dp"
                 android:text="@string/text0"
-                android:background="@color/colorYellow"
                 android:textSize="30sp" />
 
         <Button
@@ -38,7 +37,7 @@
                 android:layout_gravity="top|center"
                 android:layout_marginTop="360dp"
                 android:text="@string/text1"
-                android:background="@color/colorGreen"
+                android:background="@color/green"
                 android:textSize="30sp" />
 
     </FrameLayout>
