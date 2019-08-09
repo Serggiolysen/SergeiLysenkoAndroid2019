@@ -34,3 +34,5 @@ app/src/test/java/by/itacademy/myapplication/StudentRepoitoruRemoteTest2.kt
 projectFilesBackup/.idea/workspace.xml
 scripts/hooks/pre-commit
 app/src/main/java/by/itacademy/pvtjune/cw
+domain/
+data/
