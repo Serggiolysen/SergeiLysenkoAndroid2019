@@ -17,6 +17,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
 
 
@@ -80,7 +81,10 @@ dependencies {
 
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.0-beta-2'
 
-    implementation project(path:':data')
+    implementation project(path: ':data')
+
+    implementation 'com.android.support:multidex:1.0.3'
+
 
 }
 
