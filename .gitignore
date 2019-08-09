@@ -36,3 +36,4 @@ scripts/hooks/pre-commit
 app/src/main/java/by/itacademy/pvtjune/cw
 domain/
 data/
+scripts/
