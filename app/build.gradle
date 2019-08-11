@@ -5,16 +5,19 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+apply plugin: 'kotlin-kapt'
+
 android {
-    compileSdkVersion 28
+    compileSdkVersion rootProject.compile_sdk_version
     buildToolsVersion "29.0.1"
     defaultConfig {
         applicationId "by.itacademy.myapplication"
-        minSdkVersion 28
-        targetSdkVersion 28
+        minSdkVersion rootProject.min_sdk_version
+        targetSdkVersion rootProject.target_sdk_version
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
 
 
@@ -46,7 +49,7 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.71828'
 
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
-    implementation 'com.google.android.material:material:1.1.0-alpha08'
+    implementation 'com.google.android.material:material:1.1.0-alpha09'
 
     implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
     implementation "io.reactivex.rxjava2:rxjava:2.2.10"
@@ -72,5 +75,27 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-alpha02'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
 
+    def room_version = "2.1.0"
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.0-beta-2'
+
+    implementation project(path: ':data')
+
+    implementation 'com.android.support:multidex:1.0.3'
+
+
 }
+
+//тут не должно быть таких библтотек, как ретрофит и т.п.
+//их  надо перекинуть в модули соответствующие
+//чтобы не копировать - переносим библиотеки в переменные в главный грэдл
+//implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+//получаем:
+//в главном грэдле
+//kotlinstdlib = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+//- там вверху есть переменная о версии
+//а тут -
+//rootProject.kotlinstdlib
 

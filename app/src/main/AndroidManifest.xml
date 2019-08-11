@@ -13,8 +13,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-
-        <activity android:name="by.itacademy.pvtjune.MainScreen">
+        <activity android:name="by.itacademy.pvtjune.dz.dz5.Dz5Sova">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,8 +26,8 @@
         <activity android:name="by.itacademy.pvtjune.dz.dz2.Dz2ImageDownloading" />
         <activity android:name="by.itacademy.pvtjune.dz.dz3.Dz3" />
         <activity android:name="by.itacademy.pvtjune.dz.dz4.Dz4" />
-        <activity android:name="by.itacademy.pvtjune.dz.dz5.Dz5Diagram"/>
-
+        <activity android:name="by.itacademy.pvtjune.dz.dz5.Dz5Diagram" />
+        <!--<activity android:name="by.itacademy.pvtjune.dz.dz5.Dz5Sova" />-->
     </application>
 
 </manifest>
